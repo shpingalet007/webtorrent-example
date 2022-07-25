@@ -1,0 +1,21 @@
+{
+  "name": "webtorrent-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start:server": "node script.js --server",
+    "start:peer": "node script.js --peer",
+    "server": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-torrent": "^5.0.2",
+    "parse-torrent": "^9.1.5",
+    "webtorrent": "^1.8.13",
+    "webtorrent-hybrid": "^5.0.2",
+    "yargs": "^17.4.1"
+  }
+}
